@@ -20,6 +20,7 @@ public class Main extends JavaPlugin {
         this.saveDefaultConfig();
         Bukkit.getPluginManager().registerEvents(new EventListener(this), this);
         this.getCommand("backfix").setExecutor(new CommandHandler());
+        Files.init(this);
     }
 
     @Override
