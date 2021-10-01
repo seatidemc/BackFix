@@ -58,14 +58,14 @@ class EventListener implements Listener {
     public void recordDeathLocation(PlayerDeathEvent e) {
         var p = e.getEntity();
         var data = getSetLocation(Files.backs, p.getUniqueId().toString(), p.getLocation());
-        Files.save(data, "data.yml");
+        Files.save(data, "./data.yml");
     }
 
     @EventHandler
     public void recordTeleportLocation(PlayerTeleportEvent e) {
         var p = e.getPlayer();
         var data = getSetLocation(Files.backs, p.getUniqueId().toString(), e.getFrom());
-        Files.save(data, "data.yml");
+        Files.save(data, "./data.yml");
     }
 }
 
