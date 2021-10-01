@@ -1,0 +1,1 @@
+gradlew clean build && copy ".\build\libs\BackFix-1.0.0.jar" "C:\Users\subilan\Desktop\seatide\plugins\"

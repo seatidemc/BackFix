@@ -1,0 +1,14 @@
+name: BackFix
+main: top.seatide.BackFix.Main
+version: "1.0.0"
+api-version: 1.16
+author: Subilan
+commands:
+  backfix:
+    alias: ['b']
+    permission: backfix.command
+    description: Backfix main command
+    usage: /backfix
+permissions:
+  backfix.command:
+    default: true
