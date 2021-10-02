@@ -5,7 +5,7 @@ api-version: 1.16
 author: Subilan
 commands:
   backfix:
-    alias: ['b']
+    aliases: ['b']
     permission: backfix.command
     description: Backfix main command
     usage: /backfix
